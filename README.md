@@ -23,13 +23,11 @@ public class WebSocketConfig extends AbstractWebSocketMessageBrokerConfigurer {
     }
 
 }
-#
-
-
-# 
-
 
 ```
+
+>
+
 `configureMessageBroker`: enableSimpleBroker("Kênh quảng bá"): tạo kênh trung gian quảng bá tin nhắn  
 
 `registerStompEndpoints`: registry.addEndpoint("endpoint"):  link mà server expose để sockJS chọc vào 
