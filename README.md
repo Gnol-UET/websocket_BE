@@ -1,6 +1,6 @@
 # Websocket Backend
 ### Framework - Project: Java Spring Boot
-##### For Frontend please link to [Frontend](https://github.com/Gnol-UET/websocket_be).
+##### For Frontend please link to [Frontend](https://github.com/Gnol-UET/websocket_fe).
 
 Config:
 > WebSocketConfig.java
