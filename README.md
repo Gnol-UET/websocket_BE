@@ -32,9 +32,10 @@ public class WebSocketConfig extends AbstractWebSocketMessageBrokerConfigurer {
 
 `registerStompEndpoints`: registry.addEndpoint("endpoint"):  link mà server expose để sockJS chọc vào 
 
-Stomp là một giao thức Simple text orienteated mesaging protocol  
-
-Socket là nơi expose đường truyền, stompClient vận chuyển tin nhắn trên đường truyền này  
+> Stomp là một giao thức Simple text orienteated mesaging protocol  
+> Socket là nơi expose đường truyền   
+> Socket có nhiều kênh (endpoint) trên nó   
+> stompClient vận chuyển tin nhắn ở một trong những kênh này    
 
 #
 #
